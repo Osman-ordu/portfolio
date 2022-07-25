@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -152,7 +151,7 @@ body{
 }
 .contact-text{
     font-size:0.8rem;
-    color:#f0f9ff;
+    opacity:0.4;
 
 }
 
