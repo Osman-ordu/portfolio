@@ -30,14 +30,12 @@ body{
 .github-projects{
     color:#fff;
     text-align: center;
-    
 }
 .home {
     height:60vw;
     position:relative;
     color:#fff;
     clear: both;
-
 }
 .text-entrance{
     position: relative;
@@ -68,9 +66,7 @@ body{
     max-width: 100%;
     height: auto;
     opacity: 0.4;
-
 }
-
 .fa-code {
     color: #ff5226;  
     outline-style: none;
@@ -81,16 +77,13 @@ body{
 .navbar-toggler {
     background-color: transparent;
     transition: all 0.3s;
-    border:2px solid #ff5226;
-    
+    border:2px solid #ff5226;    
 }
-
 .navbar-toggler:focus{
     box-shadow: none;
 }
 
  .btn-download {
-  
     background-color:#E2DFDA;
     color: #ff5226;
     letter-spacing: 1px;
@@ -103,7 +96,6 @@ body{
     opacity: 0.9;
     box-shadow: 0px 0px 8px 2px #ff5226;
     transition: all 0.3s;
-    
  }
  .btn-download:hover {
     background-color:#ff5226 ;
@@ -119,11 +111,9 @@ body{
     font-weight: 400;
     font-size: 1.2vw;
     letter-spacing: 1px;
-    
 }
 .card-item:hover{
     background-color: #fff;
-
 }
 .card-body {
     font-size: 1em;
@@ -134,10 +124,7 @@ body{
 }
 .about{
     position: relative;
-    clear: both;
-
-
-    
+    clear: both;    
 }
 .text-about {
     max-width:100% ;
@@ -148,10 +135,8 @@ body{
     color: #E2DFDA;
     letter-spacing: 1px;
     text-shadow:1px 2px #222831;
-
     overflow:hidden;
     clear: both;
-
 }
 
 #projects h1 {
@@ -351,7 +336,6 @@ body{
       margin-bottom:0;
     }
   }
-  
   .footer-dark .item.text p {
     opacity:0.6;
     margin-bottom:0;
@@ -360,14 +344,12 @@ body{
   .footer-dark .item.social {
     text-align:center;
   }
-  
   @media (max-width:991px) {
     .footer-dark .item.social {
       text-align:center;
       margin-top:20px;
     }
   }
-  
   .footer-dark .item.social > a {
     font-size:20px;
     width:36px;
@@ -381,11 +363,9 @@ body{
     color:#fff;
     opacity:0.75;
   }
-  
   .footer-dark .item.social > a:hover {
     color:#ff5226;
   }
-  
   .footer-dark .copyright {
     text-align:center;
     padding-top:24px;
@@ -393,8 +373,6 @@ body{
     font-size:13px;
     margin-bottom:0;
   }
-
-
  @media screen and (max-width: 1220px) {
     .portfolio-card{
         width:70%
@@ -412,28 +390,14 @@ body{
         font-weight: 700;
         font-size: 1.6em;
     }
-  
   }
-  @media screen and (max-width: 1020px) {
-      .about {
-       height: 45vw;
-      }
-}
-
-  @media screen and (max-width: 913px) {
-      .about {
-        height: 50vw;
-      }
-}
-
   @media screen and (max-width: 800px) {
     .portfolio-card{
         width: 100%;
     }
     .card-item {
         max-width: 100%;
-        height: 40vw;
-        
+        height: 40vw;   
     }
     .card-body {
         font-weight: 800;
@@ -446,33 +410,3 @@ body{
         width: 1.9em;
         height: 1.9em;
     }
-    .svg-instagram,.svg-twitter,.svg-linkedin,.svg-medium,.svg-github{
-        width: 1.9em;
-        height: 1.9em;
-        margin-top: 20px;
-        fill:#E2DFDA;
-    }
-
-}
-@media screen and (max-width: 769px) {
-      .about {
-        height: 42vw;
-      }
-}
-
-@media screen and (max-width: 540px) {
-      .about {
-        height: 70vw;
-      }
-}
-@media screen and (max-width: 413px) {
-    .about {
-        height: 80vw;
-      }
-    .svg-title {
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-}
-
-
