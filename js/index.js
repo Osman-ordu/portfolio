@@ -37,21 +37,21 @@ projectsPath.addEventListener('click',function(){
     portfolioProjects.style.display = 'flex';
     wrapHomePage.style.display = 'none';
     formPath.style.display = 'none';
-    footerPath.style.display = 'flex';
+    footerPath.style.display = 'block';
 
 })
 homePagePath.addEventListener('click',function(){
     portfolioProjects.style.display = 'none';
     wrapHomePage.style.display = 'block';
     formPath.style.display = 'none';
-    footerPath.style.display = 'flex';
+    footerPath.style.display = 'block';
 
 })
 aboutPath.addEventListener('click',function(){
     formPath.style.display ='none';
     portfolioProjects.style.display = 'none';
     wrapHomePage.style.display = 'block';
-    footerPath.style.display = 'flex';
+    footerPath.style.display = 'block';
 
 })
 contactPath.addEventListener('click',function(){
