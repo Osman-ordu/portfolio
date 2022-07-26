@@ -33,6 +33,6 @@ function sendEmail() {
         '<br> Email: ' + document.getElementById('email').value +
         '<br> Phone No: ' + document.getElementById('phone').value +
         '<br> Message : ' + document.getElementById('message').value 
-    }).then(alert('mail başarıyla gönderildi')
+    }).then(alert('E-mail sent successfully')
     );
 }
