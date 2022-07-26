@@ -13,7 +13,7 @@ const person = {
     name:'Osman',
     sirname:'Ordu',
     age:calculateAge(1996),
-    title:'Yazılım Geliştirici'
+    title:'Software Developer'
 }
 // -- Paragraph to be added 
 
@@ -21,9 +21,10 @@ const textAbout = document.getElementById('text-about')
 const paragraph = document.createElement('p');
 
 paragraph.classList ='text-center m-5';
-paragraph.innerHTML = 
-`Ben ${person.name}, ${person.age} yaşında bir ${person.title}yim.Hızlı öğrenen Efektif ve hızlı olmak konusunda son derece özverili, sonuç odaklı ve problem çözme konusunda kendini geliştirmiş biriyim.Yeni teknolojileri takip eden ve kendini sürekli yenileyen çağa ayak uyduran bir yapım var.<br>Karmaşık sorunları çözmek benim işim.
+paragraph.innerHTML =   
+`I'm ${person.name},${person.age} years old ${person.title}. I am a fast learner, highly committed to being effective and fast, result oriented and self-developing in problem solving.<br> It's my job to solve complex problems.
 <figcaption id="figcaption" class="blockquote-footer text-center fw-bold mt-4">
 <cite title="Source Title">${person.name} ${person.sirname}</cite>
 </figcaption>`;
 textAbout.appendChild(paragraph);
+
