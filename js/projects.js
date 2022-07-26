@@ -14,7 +14,7 @@ const projects = [
                 isRight: true,
                 projectImg:'./images/project-photo/random-choice-picker.png',
                 projectName:'Random Choice Picker',
-                description:'Girilen ifadeler virgüllerle birbirinden ayrılarak birbirinden farklı metin veya sayılardan oluşabilir. Olay dinleyicisi sayesinde "Enter" tuşuna tıklanıldığında girilen değerler arasında rastgele seçim yapan bir döngü oluşturur.',
+                description:'With event listener support, clicking "Enter" will randomly loop through the entered values.',
                 projectUrl:'https://github.com/Osman-ordu/Random-choice-picker',
                 demoUrl:'https://osman-ordu.github.io/Random-choice-picker/'
             }
@@ -28,7 +28,7 @@ const projects = [
                 isRight: true,
                 projectImg:'./images/project-photo/weather-app.png',
                 projectName:'Weather App',
-                description:'Dünyadaki tüm şehirlerin hava durumu derecelendirmelerini ve hava durumu açıklamasını gösterir.',
+                description:'An API application that shows the weather of all cities.',
                 projectUrl:'https://github.com/Osman-ordu/Global-weather-app',
                 demoUrl:'https://osman-ordu.github.io/Global-weather-app/'
             }
@@ -42,7 +42,7 @@ const projects = [
                 isRight: true,
                 projectImg:'./images/project-photo/pick-game.png',
                 projectName:'Pick Game',
-                description:'Bir zar atma oyunudur,iki kullanıcı vardır ,kullanıcılar zarı attığında 1 gelirse skor sıfırlanır ve zar atma sırası rakip kullanıcıya geçer, skoru 50 olan kullanıcı kazanır. ',
+                description:'When the user rolls the dice, if a 1 is rolled, the score is reset and the turn of the dice passes to the opposing user, the user with 50 points wins. ',
                 projectUrl:'https://github.com/Osman-ordu/Pick-game',
                 demoUrl:'https://osman-ordu.github.io/Pick-game/'
             }
@@ -56,7 +56,7 @@ const projects = [
                 isRight: true,
                 projectImg:'./images/project-photo/go-screen.png',
                 projectName:'Go Screen',
-                description:'Kullanıcı videoyu başlattığında, video planlanan dakika aralığında durdurulur. Cevap butonları görüntülenir. Seçilen buton değeri 1 artar. Video bittiğinde puan sonuçları görüntülenir.',
+                description:'When the user starts the video, the video is stopped at the scheduled minute interval and the answer buttons are displayed.',
                 projectUrl:'https://github.com/Osman-ordu/Go-screen',
                 demoUrl:'https://osman-ordu.github.io/Go-screen/'
             }
@@ -70,7 +70,7 @@ const projects = [
                 isRight: true,
                 projectImg:'./images/project-photo/shopping-cart.png',
                 projectName:'Shopping Cart',
-                description:'Bir sepete ekleme uygulamasıdır.Kartların olduğu arayüzde satın alınacak ürünü sepete eklediğimizde Navbar kısmında "Added to card" yazısı animasyonlu bir şekilde karşımıza çıkar.Sepet değeri her kart eklendiğinde eklenilen ürün kadar artar ve silinildiğinde sepetin uzunluğu kadar silinir. ',
+                description:'A shopping cart application that includes all the stages of adding a card.',
                 projectUrl:'https://github.com/Osman-ordu/Shopping-cart',
                 demoUrl:'https://osman-ordu.github.io/Shopping-cart/'
             }
@@ -84,7 +84,7 @@ const projects = [
                 isRight: true,
                 projectImg:'./images/project-photo/to-do-list.png',
                 projectName:'To Do List',
-                description:'Yapılacaklar listesi',
+                description:'A to-do list app coded with "Pure JS" designed with "Bootstrap UI"',
                 projectUrl:'https://github.com/Osman-ordu/To-do-list',
                 demoUrl:'https://osman-ordu.github.io/To-do-list/'
             }
@@ -98,7 +98,7 @@ const projects = [
                 isRight: true,
                 projectImg:'./images/project-photo/netflix-clone.png',
                 projectName:'Netflix Clone',
-                description:'Netflix Arayüzü',
+                description:'A clone project, a single netflix page design.',
                 projectUrl:'https://github.com/Osman-ordu/Netflix-clone',
                 demoUrl:'https://osman-ordu.github.io/Netflix-clone/'
             }
@@ -112,7 +112,7 @@ const projects = [
                 isRight: true,
                 projectImg:'./images/project-photo/key-code.png',
                 projectName:'Key code',
-                description:'Tüm klavye tuşlarını bir özelliğinin olduğunu gösteren arayüz.',
+                description:'An application that shows the code properties of keyboard keys.',
                 projectUrl:'https://github.com/Osman-ordu/Keycode',
                 demoUrl:'https://osman-ordu.github.io/Keycode/'
             }
