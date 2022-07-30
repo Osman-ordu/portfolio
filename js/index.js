@@ -11,6 +11,7 @@ const wrapHomePage = document.getElementById('wrap-home-page');
 const formPath = document.getElementById('form-path');
 const footerPath = document.querySelector('.footer-dark')
 
+// Id Prefix
 let projectPrefix = 'qm-';
 
 
@@ -33,75 +34,44 @@ for(let link of links){
 
 // -- Path movements within the page 
 
-projectsPath.addEventListener('click',function(){
-    portfolioProjects.style.display = 'flex';
-    wrapHomePage.style.display = 'none';
-    formPath.style.display = 'none';
-    footerPath.style.display = 'block';
-
-})
 homePagePath.addEventListener('click',function(){
-    portfolioProjects.style.display = 'none';
-    wrapHomePage.style.display = 'block';
-    formPath.style.display = 'none';
-    footerPath.style.display = 'block';
-
+    projectHide();
+    homePageShow();
+    formHide();
+    footerShow();
 })
 aboutPath.addEventListener('click',function(){
-    formPath.style.display ='none';
-    portfolioProjects.style.display = 'none';
-    wrapHomePage.style.display = 'block';
-    footerPath.style.display = 'block';
+    formHide();
+    projectHide();
+    homePageShow();
+    footerShow();
+
+})
+projectsPath.addEventListener('click',function(){
+    projectShow();
+    homePageHide()
+    formHide();
+    footerShow();
+    // Card Animation
+    sr.reveal('.portfolio-card',{
+        opacity:0,
+        scale:0.8,
+        duration:1000
+    })
 
 })
 contactPath.addEventListener('click',function(){
-    formPath.style.display ='flex';
-    portfolioProjects.style.display = 'none';
-    wrapHomePage.style.display = 'none';
-    footerPath.style.display = 'none';
+    formShow();
+    projectHide();
+    homePageHide();
+    footerHide();
+    // Form Animation
+    sr.reveal('#form-path',{
+        opacity:0,
+        scale:0.8,
+        duration:1000
+    })
 
-})
-
-// -- Scroll animation
-
-window.sr = new ScrollReveal();
-
-sr.reveal('.navbar',{
-    delay:500,
-    distance:'10px',
-    origin:'top',
-})
-
-sr.reveal('.text-about',{
-    opacity:0,
-    scale:0.8,
-    duration:2000
-    
-})
-sr.reveal('.card-item',{
-   opacity:0,
-   interval:50,
-   rotate:{x:100, y:2000}
-})
-
-sr.reveal('.text-center',{
-    opacity:0,
-    scale:0.8,
-    duration:2000
-    
-
-})
-sr.reveal('.contact',{
-    opacity:0,
-    scale:0.8,
-    duration:2000
-    
-})
-sr.reveal('.fa-code',{
-    opacity:0,
-    scale:0.2,
-    duration:3000
-    
 })
 
 // -- Creating a card by pulling information from the 'projects object'
@@ -131,9 +101,78 @@ projects.forEach((p) => {
     }
 })
 
+function homePageHide(){
+    wrapHomePage.style.display = 'none';
+}
+
+function homePageShow(){
+    wrapHomePage.style.display = 'block';
+
+}
+
+function formHide(){
+    formPath.style.display = 'none';
+
+}
+function formShow(){
+    formPath.style.display = 'flex';
+
+}
 
 
+function footerHide(){
+    footerPath.style.display = 'none';
+    
+}
+function footerShow(){
+    footerPath.style.display = 'block';
+
+}
+
+function projectHide(){
+    portfolioProjects.style.display = 'none';
+
+}
+
+function projectShow(){
+    portfolioProjects.style.display = 'flex';
+
+}
+
+// -- Element Animation
+
+window.sr = new ScrollReveal();
 
 
+sr.reveal('.navbar',{
+    delay:500,
+    distance:'10px',
+    origin:'top',
+})
 
+sr.reveal('.text-about',{
+    opacity:0,
+    scale:0.8,
+    duration:2000
+    
+})
+sr.reveal('.card-item',{
+    opacity:0,
+    scale:0.1,
+    duration:1000
+})
+
+sr.reveal('.text-center',{
+    opacity:0,
+    scale:0.8,
+    duration:2000
+    
+
+})
+sr.reveal('.fa-code',{
+    opacity:0,
+    scale:0.2,
+    duration:3000
+    
+})
 
