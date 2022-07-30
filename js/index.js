@@ -56,7 +56,7 @@ projectsPath.addEventListener('click',function(){
     sr.reveal('.portfolio-card',{
         opacity:0,
         scale:0.8,
-        duration:1000
+        duration:2000
     })
 
 })
