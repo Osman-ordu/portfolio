@@ -150,12 +150,6 @@ sr.reveal('.navbar',{
     origin:'top',
 })
 
-sr.reveal('.text-about',{
-    opacity:0,
-    scale:0.8,
-    duration:2000
-    
-})
 sr.reveal('.card-item',{
     opacity:0,
     scale:0.1,
