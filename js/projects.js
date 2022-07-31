@@ -6,6 +6,20 @@ const getProjectId = () => ++baseId;
 
 // -- Project object
 const projects = [
+     {
+        id:0,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/guess-my-number.png',
+                projectName:'Guess The Number',
+                description:'A number guessing game. It helps to find the answer with the clues it gives.',
+                projectUrl:'https://github.com/Osman-ordu/Guess-the-number',
+                demoUrl:'https://osman-ordu.github.io/Guess-the-number/'
+            }
+        
+    },
     {
         id:1,
         project: 
@@ -40,11 +54,11 @@ const projects = [
             {
                 id:getProjectId(),
                 isRight: true,
-                projectImg:'./images/project-photo/pick-game.png',
-                projectName:'Pick Game',
-                description:'When the user rolls the dice, if a 1 is rolled, the score is reset and the turn of the dice passes to the opposing user, the user with 50 points wins. ',
-                projectUrl:'https://github.com/Osman-ordu/Pick-game',
-                demoUrl:'https://osman-ordu.github.io/Pick-game/'
+                projectImg:'./images/project-photo/covid-19-tracker.png',
+                projectName:'Covid-19 Tracker',
+                description:'It is an api project that shows the total number of cases and instant deaths and cases that died from the covid-19 virus around the world.',
+                projectUrl:'https://github.com/Osman-ordu/Covid-19-Tracker',
+                demoUrl:'https://osman-ordu.github.io/Covid-19-Tracker/'
             }
         
     },
@@ -138,11 +152,11 @@ const projects = [
             {
                 id:getProjectId(),
                 isRight: true,
-                projectImg:'./images/project-photo/covid-19-tracker.png',
-                projectName:'Covid-19 Tracker',
-                description:'It is an api project that shows the total number of cases and instant deaths and cases that died from the covid-19 virus around the world.',
-                projectUrl:'https://github.com/Osman-ordu/Covid-19-Tracker',
-                demoUrl:'https://osman-ordu.github.io/Covid-19-Tracker/'
+                projectImg:'./images/project-photo/pick-game.png',
+                projectName:'Pick Game',
+                description:'When the user rolls the dice, if a 1 is rolled, the score is reset and the turn of the dice passes to the opposing user, the user with 50 points wins. ',
+                projectUrl:'https://github.com/Osman-ordu/Pick-game',
+                demoUrl:'https://osman-ordu.github.io/Pick-game/'
             }
         
     },
