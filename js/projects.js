@@ -118,6 +118,48 @@ const projects = [
             }
         
     },
+    {
+        id:9,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/exchange-rate.png',
+                projectName:'Exchange Rate App',
+                description:'It is an API project that shows the instant exchange rate of the Turkish lira.',
+                projectUrl:'https://github.com/Osman-ordu/Exchange-rate-app',
+                demoUrl:'https://osman-ordu.github.io/Exchange-rate-app/'
+            }
+        
+    },
+    {
+        id:10,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/covid-19-tracker.png',
+                projectName:'Covid-19 Tracker',
+                description:'It is an api project that shows the total number of cases and instant deaths and cases that died from the covid-19 virus around the world.',
+                projectUrl:'https://github.com/Osman-ordu/Covid-19-Tracker',
+                demoUrl:'https://osman-ordu.github.io/Covid-19-Tracker/'
+            }
+        
+    },
+    {
+        id:11,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/password-generator.png',
+                projectName:'Password Generator',
+                description:'This application, which generates different random passwords from each other, generates unique passwords. It has many features.',
+                projectUrl:'https://github.com/Osman-ordu/Password-generator',
+                demoUrl:'https://osman-ordu.github.io/Password-generator/'
+            }
+        
+    },
 
 ]
 
