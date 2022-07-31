@@ -25,6 +25,8 @@ paragraph.innerHTML =
 `I'm ${person.name},${person.age} years old ${person.title}. I am a fast learner, highly committed to being effective and fast, result oriented and self-developing in problem solving.<br> It's my job to solve complex problems.
 <figcaption id="figcaption" class="blockquote-footer text-center fw-bold mt-4">
 <cite title="Source Title">${person.name} ${person.sirname}</cite>
-</figcaption>`;
+</figcaption>
+<p>I love to share what I learned, you can <a title='Medium' href='https://medium.com/@orduosmann'>click here </a>for my medium account.</p>
+`;
 textAbout.appendChild(paragraph);
 
