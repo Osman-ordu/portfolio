@@ -36,22 +36,32 @@ for(let link of links){
 
 homePagePath.addEventListener('click',function(){
     projectHide();
-    homePageShow();
     formHide();
-    footerShow();
+        setTimeout(() => {
+           homePageShow();
+           footerShow();
+
+    },2000)
 })
 aboutPath.addEventListener('click',function(){
     formHide();
     projectHide();
-    homePageShow();
-    footerShow();
+        setTimeout(() => {
+           homePageShow();
+           footerShow();
+
+    },2000)
+
 
 })
 projectsPath.addEventListener('click',function(){     
     homePageHide()
     formHide();
-    projectShow();
-    footerShow();
+    setTimeout(() => {
+        projectShow();
+        footerShow();
+    },2000)
+    
     // Card Animation
     sr.reveal('.portfolio-card',{
         opacity:0,
@@ -107,9 +117,7 @@ function homePageHide(){
 }
 
 function homePageShow(){
-    setTimeout(() => {
-            wrapHomePage.style.display = 'block';
-    },2000)
+    wrapHomePage.style.display = 'block';
 
 }
 
@@ -127,10 +135,8 @@ function projectHide(){
 }
 
 function projectShow(){
-    setTimeout(() => {
     portfolioProjects.style.display = 'flex';
         
-    },2000)
 
 }
 function footerHide(){
@@ -138,10 +144,8 @@ function footerHide(){
     
 }
 function footerShow(){
-    setTimeout(() => {
     footerPath.style.display = 'block';
         
-    },2500)
 
 }
 
