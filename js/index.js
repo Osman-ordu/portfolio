@@ -48,10 +48,13 @@ aboutPath.addEventListener('click',function(){
 
 })
 projectsPath.addEventListener('click',function(){
-    projectShow();
+    setTimeout(()=>{
+        projectShow();
+        footerShow();
+        
+    },1000)
     homePageHide()
     formHide();
-    footerShow();
     // Card Animation
     sr.reveal('.portfolio-card',{
         opacity:0,
