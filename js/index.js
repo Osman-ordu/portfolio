@@ -47,14 +47,11 @@ aboutPath.addEventListener('click',function(){
     footerShow();
 
 })
-projectsPath.addEventListener('click',function(){
-    setTimeout(()=>{
-        projectShow();
-        footerShow();
-        
-    },1000)
+projectsPath.addEventListener('click',function(){     
     homePageHide()
     formHide();
+    projectShow();
+    footerShow();
     // Card Animation
     sr.reveal('.portfolio-card',{
         opacity:0,
@@ -101,6 +98,7 @@ projects.forEach((p) => {
         
         portfolioProjects.style.display = "none";
         portfolioProjects.appendChild(newCard);
+        
     }
 })
 
@@ -109,7 +107,9 @@ function homePageHide(){
 }
 
 function homePageShow(){
-    wrapHomePage.style.display = 'block';
+    setTimeout(() => {
+            wrapHomePage.style.display = 'block';
+    },2000)
 
 }
 
@@ -121,24 +121,27 @@ function formShow(){
     formPath.style.display = 'flex';
 
 }
-
-
-function footerHide(){
-    footerPath.style.display = 'none';
-    
-}
-function footerShow(){
-    footerPath.style.display = 'block';
-
-}
-
 function projectHide(){
     portfolioProjects.style.display = 'none';
 
 }
 
 function projectShow(){
+    setTimeout(() => {
     portfolioProjects.style.display = 'flex';
+        
+    },2000)
+
+}
+function footerHide(){
+    footerPath.style.display = 'none';
+    
+}
+function footerShow(){
+    setTimeout(() => {
+    footerPath.style.display = 'block';
+        
+    },2500)
 
 }
 
