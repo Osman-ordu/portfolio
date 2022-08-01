@@ -37,30 +37,24 @@ for(let link of links){
 homePagePath.addEventListener('click',function(){
     projectHide();
     formHide();
-        setTimeout(() => {
-           homePageShow();
-           footerShow();
+    homePageShow();
+    footerShow();
 
-    },2000)
 })
 aboutPath.addEventListener('click',function(){
     formHide();
     projectHide();
-        setTimeout(() => {
-           homePageShow();
-           footerShow();
+    homePageShow();
+    footerShow();
 
-    },2000)
 
 
 })
 projectsPath.addEventListener('click',function(){     
     homePageHide()
     formHide();
-    setTimeout(() => {
-        projectShow();
-        footerShow();
-    },2000)
+    projectShow();
+    footerShow();
     
     // Card Animation
     sr.reveal('.portfolio-card',{
