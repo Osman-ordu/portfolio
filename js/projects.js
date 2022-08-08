@@ -187,7 +187,21 @@ const projects = [
                 demoUrl:'https://github.com/Osman-ordu/monster-rolodex'
             }
         
-    }, 
+    },
+    {
+        id:14,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/pokodex.png',
+                projectName:'Pokedex',
+                description:'Each of these pokedex cards made with dynamic code carries a color code. It is divided into different types of Pokemon, and a total of 150 cards were created, respectively.',
+                projectUrl:'https://github.com/Osman-ordu/pokedex',
+                demoUrl:'https://osman-ordu.github.io/pokedex/'
+            }
+        
+    },   
 
 ]
 
