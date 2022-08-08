@@ -174,6 +174,20 @@ const projects = [
             }
         
     },
+    {
+        id:13,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/img-monster-rolodex.png',
+                projectName:'Monster Rolodex',
+                description:'A monster API was used. A react.js app that filters calls returns a monster based on the text entered in the calls.',
+                projectUrl:'https://github.com/Osman-ordu/monster-rolodex',
+                demoUrl:'https://github.com/Osman-ordu/monster-rolodex'
+            }
+        
+    }, 
 
 ]
 
