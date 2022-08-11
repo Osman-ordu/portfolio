@@ -201,7 +201,21 @@ const projects = [
                 demoUrl:'https://osman-ordu.github.io/pokedex/'
             }
         
-    },   
+    },
+    {
+        id:15,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/poke.png',
+                projectName:'Pokemon Cards',
+                description:'Pokemon cards that create items from objects using onmouse events',
+                projectUrl:'https://github.com/Osman-ordu/pokemon-cards',
+                demoUrl:'https://github.com/Osman-ordu/pokemon-cards'
+            }
+        
+    }, 
 
 ]
 
