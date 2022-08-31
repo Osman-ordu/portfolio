@@ -222,10 +222,10 @@ const projects = [
             {
                 id:getProjectId(),
                 isRight: true,
-                projectImg:'./',
+                projectImg:'./images/aselsan-categorie-clone.png',
                 projectName:'Aselsan 1975 Categories',
                 description:'Aselsan E-commerce categorie page clone',
-                projectUrl:'https://github.com/Osman-ordu/Guess-the-number',
+                projectUrl:'https://github.com/Osman-ordu/aselsan_clone-categorie-page',
                 demoUrl:'https://osman-ordu.github.io/aselsan_clone-categorie-page/'
             }
         
