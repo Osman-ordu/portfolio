@@ -215,7 +215,21 @@ const projects = [
                 demoUrl:'https://github.com/Osman-ordu/pokemon-cards'
             }
         
-    }, 
+    },
+    {
+        id:16,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./',
+                projectName:'Aselsan 1975 Categories',
+                description:'Aselsan E-commerce categorie page clone',
+                projectUrl:'https://github.com/Osman-ordu/Guess-the-number',
+                demoUrl:'https://osman-ordu.github.io/aselsan_clone-categorie-page/'
+            }
+        
+    }
 
 ]
 
