@@ -222,7 +222,7 @@ const projects = [
             {
                 id:getProjectId(),
                 isRight: true,
-                projectImg:'./images/aselsan-categorie-clone.png',
+                projectImg:'./images/project-photo/aselsan-categorie-clone.png',
                 projectName:'Aselsan 1975 Categories',
                 description:'Aselsan E-commerce categorie page clone',
                 projectUrl:'https://github.com/Osman-ordu/aselsan_clone-categorie-page',
