@@ -229,7 +229,35 @@ const projects = [
                 demoUrl:'https://osman-ordu.github.io/aselsan_clone-categorie-page/'
             }
         
-    }
+    },
+    {
+        id:17,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/bag-dada-image.png',
+                projectName:'Bag dada',
+                description:'NFT Project,Opensea extension MarketPlace link',
+                projectUrl:'https://github.com/Osman-ordu/bag-dada',
+                demoUrl:'https://bag-dada.vercel.app/'
+            }
+        
+    },
+    {
+        id:18,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/find-your-lost-robot.png',
+                projectName:'Lost Finder App',
+                description:'Search Filtering, Person listing application',
+                projectUrl:'https://github.com/Osman-ordu/lost-finder-app',
+                demoUrl:'https://lost-finder-app.vercel.app/'
+            }
+        
+    } 
 
 ]
 
