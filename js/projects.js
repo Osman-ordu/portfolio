@@ -257,7 +257,21 @@ const projects = [
                 demoUrl:'https://lost-finder-app.vercel.app/'
             }
         
-    } 
+    },
+    {
+        id:19,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/javascript-questions-image.png',
+                projectName:'JavaScript Questions List',
+                description:'Open source questions and answers for those who want to improve themselves in the javascript programming language, Practice space for interviews.',
+                projectUrl:'https://github.com/Osman-ordu/JavaScript-Questions',
+                demoUrl:'https://github.com/Osman-ordu/JavaScript-Questions'
+            }
+        
+    }  
 
 ]
 
