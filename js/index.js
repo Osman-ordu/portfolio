@@ -92,8 +92,12 @@ projects.forEach((p) => {
                   <h3 class="text-end project-title">${project.projectName}</h3>
                   <img id="card-img" class="img-fluid card-img mt-1 mb-4" src="${project.projectImg}" alt="">
                   <div class="overlay">
-                  <a class="text-start m-2 fw-normal" href="${project.demoUrl}">Demo</a>
-                  <a class="text-start fw-normal" href="${project.projectUrl}">Code</a>
+  
+                  <a class="text-start m-2 fw-normal project-link" href="${project.demoUrl}">Live
+                  <i class="fa-solid fa-up-right-from-square"></i></a>
+                  <a class="text-start fw-normal project-link" href="${project.projectUrl}">Github
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                  </a>
                   <h3 class="text-end mx-4">${project.projectName}</h3>
                   <div class="text">${project.description}</div>
                   </div>
