@@ -271,7 +271,21 @@ const projects = [
                 demoUrl:'https://github.com/Osman-ordu/JavaScript-Questions'
             }
         
-    }  
+    },  
+          {
+        id:20,
+        project: 
+            {
+                id:getProjectId(),
+                isRight: true,
+                projectImg:'./images/project-photo/mobil-dada.png',
+                projectName:'Dada Boutique(E-commerce)',
+                description:'A boutique e-commerce application, product filtering, categories.Dynamically retrieved data via api is displayed in DOM.',
+                projectUrl:'https://github.com/Osman-ordu/dada-boutique',
+                demoUrl:'dada-boutique.vercel.app'
+            }
+        
+    }
 
 ]
 
